@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2015" , 
+    "jsx": "react", 
+    "downlevelIteration" : true , 
+    "allowSyntheticDefaultImports" : true , 
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "vendor",
+    "public"
+  ],
+  "compileOnSave": false
+}
